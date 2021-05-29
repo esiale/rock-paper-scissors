@@ -22,8 +22,6 @@ function playRound(computerSelection, playerSelection) {
 
     if (computerSelection === playerSelection) {
         alert("It's a draw!");
-        playerScore = playerScore + 1, 
-        computerScore = computerScore +1;
     } else if (computerSelection === "rock", playerSelection === "paper") {
         alert("Computer wins!");
         computerScore = computerScore +1;
@@ -58,6 +56,8 @@ function game() {
     } else {
         alert("It's a draw!");
     }
+    console.log(computerScore);
+    console.log(playerScore);
     }
 
  
